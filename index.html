@@ -9,13 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Slider - Start Bootstrap Template</title>
+    <title>BROOK D. HINDLEY - Full Stack Software Engineering + Web Development</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+   
+      <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+   
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,33 +31,38 @@
 
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#">Brook D. Hindley</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>
+
+                      <span class="light">Full Stack Software Engineering + Web Development
+                </a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Porfolio</a>
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="#">Resume</a>
+                        <a class="page-scroll" href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="page-scroll" href="#resume">RESUME</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTACT</a>
+                           </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -60,74 +70,148 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                 <div class="fill" style="background-image:url('/Users/coder/Documents/brookondrums.github.io/img/pdxbridge.jpg/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Brook D. Hindley</h1>
+                        <p class="intro-text">Full Stack Software Engineer</p>
+                        <a href="#portfolio" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
     </header>
 
-    <!-- Page Content -->
-    <div class="container">
+    <!-- Portfolio Section -->
+<section id="portfolio" class="container content-section text-center">
+  <h1>Portfolio</h1>
+  <div class="row">
+    <div class="col-sm-7" style="background-color: "#cbcbcb>
+      <p>Screenshots coming soon.</p>
+      <p></p>
+    </div>
+    <div class="col-sm-5" style="background-color: "#cbcbcb>
+      <p></p>
+</div>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Full Slider by Start Bootstrap</h1>
-                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
-            </div>
-        </div>
+    <!-- Resume Section -->
+     <section id="resume" font='Open Sans' font-color='#993333'class="container content-section text-left">
+  <div class="row">
+    <div class="col-sm-5" style="background-color: "#cbcbcb>
+<p>SOFT SKILLS<p>
+Written & verbal communication<br> 
+Leadership & collaboration<br><br><br>
+<p>TECHNICAL SKILLS<p>
+Software Development<br>
+Object Oriented Programming<br>
+Web Architecture<br><br><br>
+<p>PROGRAMMING LANGUAGES<p>
+JavaScript<br> 
+Python<br>  
+PHP<br>     
+CSS3<br> 
+HTML5  <br>      
+SQL<br><br><br>
+<p>ACADEMIC QUALIFICATIONS <p>
+Earlham College<br>
+B.A. MANAGEMENT & LEADERSHIP<br> 1997-2002<br>
+<br>Carnegie Mellon University<br>
+CORO FELLOW IN PUBLIC AFFAIRS<br> 2002-2003<br><br><br> 
+<p>CONTACT DETAILS<p>
+Brook D. Hindley <br>
+127 NW 6th Ave #604 <br>
+Portland, OR 97209<br>
+<br>T: 971.264.9298 <br>
+E: hindley.brook@gmail.com 
 
-        <hr>
+</p>
+    </div>
+    <div class="col-sm-7" style="background-color="#cbcbcb>
+<p>AREAS OF EXPERTISE<p>
+Time Management:<br>
+- Experience working effectively with clients and vendors.<br>
+- Ability to work independently, as part of a team, model feedback.<br>
+Communication Capabilities:<br>
+- Reported to department supervisor and executive office manager.<br>
+- Collaborate effectively with all levels of the organization.<br>
+- Fosters collaboration between stakeholders and quickly gains trust.<br> 
+Leadership Skills:<br>
+- Work ethos of integrity, teamwork, client service, winning results.<br> 
+- “2009 Best Advertising Idea” used in award-winning campaign.<br>
+- Contributor to “Best Ideas Program - many ideas implemented.<br>
+<br>ENGINEERING EXPERIENCE<br>
+<br>PDX Code Guild - Portland, OR, 4/2015-6/2015<br>          
+SOFTWARE ENGINEERING STUDENT<br>            
+- Full-Stack software engineering bootcamp.<br>
+- OOP (object-oriented-programming).<br>
+- MVC (model-view-controller).<br>
+- RESTful API (application-programming-interface).<br>
+- AWS (Amazon Web Services).<br>
+- Agile development environment.<br>
+- Linux and Ubuntu Linux.<br>
+- PHPStorm, WebStorm, PyCharm, Git, Github, MySQL.<br>
+<br>PDX Code Guild - Portland, OR, March-2015<br>          
+INTRO TO PROGRAMMING STUDENT<br>                
+- Intro to Python programming language.<br>
+- Ubuntu Linux and command-line.<br>
+- VirtualBox, SublimeText.<br>
+<br>PRIOR EXPERIENCE<br>
+<br>TaskRabbit - Portland, OR, 2013-2014<br>  
+TASK CONCIERGE<br>
+Grout Master - Portland, OR, 2013-2014<br>                                    ONLINE MARKETING CONSULTANT<br>   
+Lane Powell PC - Portland, OR, 2005-2012<br>                                   LEGAL SERVICES ASSISTANT<br>
+Masters School - Dobbs Ferry, NY, 2004-2005<br>   
+COLLEGE COUNSELING ASSISTANT<br>
+Coro Center for Civic Leadership - Pittsburgh, PA 2002-2003<br>                        CORO FELLOW IN PUBLIC AFFAIRS<br>                  
+Earlham College - Richmond, IN, 1997-2002<br>                              
+PC/MAC LAB TECHNICIAN<br>                    
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
+</p>
 
     </div>
-    <!-- /.container -->
+  </div>
+</div>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+  <h1>Contact</h1>
+  <div class="row">
+    <div class="container" style="background-color: "#cbcbcb>
+      <p>
+                
+                <p>Brook D. Hindley <br>
+				127 NW 6th Ave #604 <br>
+				Portland, OR 97209<br>
+				971.264.9298 <br>
+				<a href="mailto:hindley.brook@gmail.com">hindley.brook@gmail.com</a>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                    <li>
+                        <a href="https://twitter.com/pdxbrooklyn" class="btn btn-default btn-lg"><i class="fa fa-Twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/brookondrums" class="btn btn-default btn-lg"><i class="fa fa-Github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/brookdhindley" class="btn btn-default btn-lg"><i class="fa fa-Linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Brook D. Hindley 2015</p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -135,12 +219,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="image" src=<href>('..img/rossisland.jpg'></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
 
