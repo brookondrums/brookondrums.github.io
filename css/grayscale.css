@@ -65,7 +65,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-family: 'Open Sans 600', sans-serif; 
-    background-color: #336f99;
+    background-color: #444444;
 }
 
 .navbar-custom .navbar-brand {
@@ -79,7 +79,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #336f99;
+    color: #444444;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
