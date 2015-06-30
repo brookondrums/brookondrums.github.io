@@ -79,7 +79,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #997733;
+    color: #993333;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -135,7 +135,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #993333;
+        background: #997733;
     }
 
 .intro {
