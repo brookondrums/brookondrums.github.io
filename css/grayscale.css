@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: #e7be28;
-    background-color: #656877;
+    color: #997733;
+    background-color: #444444;
 }
 
 html {
@@ -32,7 +32,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -65,11 +65,12 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-family: 'Open Sans 600', sans-serif; 
-    background-color: #e7be28;
+    background-color: #000000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 18px
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -78,8 +79,8 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
-    color: #444444;
+    font-size: 18px;
+    color: #000000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -88,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #ffffff;
+    color: #997733;
 }
 
 .navbar-custom .nav li a {
@@ -106,7 +107,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: transparent;
+    background-color: #997733 transparent;
 }
 
 .navbar-custom .nav li.active {
@@ -135,7 +136,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #336f99;
+        background: #000000;
     }
 
 .intro {
@@ -145,8 +146,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #336f99;
-    background: url(../img/pdxbridge4.jpg) no-repeat bottom center scroll;
-    background-color: #444444;
+    background: url(../img/road.jpeg) no-repeat bottom center scroll;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -296,7 +297,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: ;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans 600',sans-serif;
     font-weight: 600;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
