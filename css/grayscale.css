@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #997733;
-    background-color: #b0b0b0;
+    background-color: #444444;
 }
 
 html {
@@ -145,7 +145,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #336f99;
-    background-image: url(../img/rossisland.jpg) no-repeat center center scroll;
+    background: url(../img/rossisland.jpg) no-repeat bottom center scroll;
     background-color: #444444;
     -webkit-background-size: cover;
     -moz-background-size: cover;
