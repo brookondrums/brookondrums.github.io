@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: #997733;
-    background-color: #444444;
+    color: #000000;
+    background-color: #997733;
 }
 
 html {
@@ -25,14 +25,14 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
     font-weight: 700;
     letter-spacing: 2px;
 }
 
 p {
     margin: 0 0 25px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #ffffff;
+    color: #997733;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,23 +54,23 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #ffffff;
+    color: #997733;
 }
 
 .light {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    font-family: 'Open Sans 600', sans-serif; 
+    text-transform: uppercase;
+    font-family: "Open Sans 600";
     background-color: #000000;
 }
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-    font-size: 18px
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 18px;
-    color: #000000;
+    color: #997733;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -107,7 +107,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: #997733 transparent;
+    background-color: transparent;
 }
 
 .navbar-custom .nav li.active {
@@ -119,7 +119,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #ffffff;
+    color: #997733;
 }
 
 @media(min-width:768px) {
@@ -138,6 +138,7 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000000;
     }
+}
 
 .intro {
     display: table;
@@ -145,8 +146,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #336f99;
-    background: url(../img/road.jpeg) no-repeat bottom center scroll;
+    color: #fff;
+    background: url(../img/grunge.jpg) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,16 +161,15 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font: 'Montserrat', sans-serif;
-    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
     color: #ffffff;
 }
 
 .intro .intro-body .intro-text {
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 30px;
+    font-family: 'Open Sans 600', sans-serif;
     color: #ffffff;
-    
+    font-size: 18px;
 }
 
 @media(min-width:768px) {
@@ -179,19 +179,20 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 70px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 45px;
-   }
+        font-size: 26px;
+    }
+}
 
 .btn-circle {
     width: 70px;
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #ffffff;
+    border: 2px solid #997733;
     border-radius: 100%!important;
     font-size: 40px;
     color: #ffffff;
@@ -199,13 +200,12 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-    
-    }
+}
 
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #ffffff;
+    color: #997733;
     background: rgba(255,255,255,.1);
 }
 
@@ -266,12 +266,10 @@ a:focus {
 }
 
 .portfolio-section {
-    
-    display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    padding: 50px 0;
     color: #ffffff;
+    background: url(../img/grunge.jpg) no-repeat center center scroll;
     background-color: #b0b0b0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -279,12 +277,18 @@ a:focus {
     -o-background-size: cover;
 }
 
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
     }
 
-    .portfolio-section {
+    .download-section {
         padding: 100px 0;
     }
 
@@ -296,26 +300,27 @@ a:focus {
 
 .btn {
     border-radius: 0;
-    text-transform: ;
+    text-transform: uppercase;
     font-family: 'Open Sans 600',sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .btn-default {
-    border: 1px solid #b0b0b0;
+    border: 1px solid #000000;
     color: #997733;
-    background-color: #000000 transparent;
+    outline: 0;
+    background-color: #997733 transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 0px solid #b0b0b0;
+    border: 1px solid #000000;
     outline: 0;
-    color: #ffffff;
-    background-color: #b0b0b0;
+    color: #997733;
+    background-color: #000000;
 }
 
 ul.banner-social-buttons {
@@ -350,13 +355,13 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #997733;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #000000;
+    background: #997733;
     background: rgba(255,255,255,.2);
 }
 
