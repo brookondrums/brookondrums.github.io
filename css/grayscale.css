@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #000000;
-    background-color: #997733;
+    background-color: #999133;
 }
 
 html {
@@ -64,13 +64,13 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform:;
+    text-transform: uppercase;
     font-family: "Open Sans 600";
     background-color: #000000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .navbar-custom .navbar-brand:focus {
