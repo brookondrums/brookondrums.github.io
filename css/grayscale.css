@@ -8,8 +8,9 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: #000000;
-    background-color: #997733;
+    color: #ffffff;
+    background-color: #152d39;
+    background: url(../img/dark-blue-industrial-patterns-2.jpg)
 }
 
 html {
@@ -25,7 +26,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Montserrat";
+    font-family: 'Droid Sans' sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -45,7 +46,7 @@ p {
 }
 
 a {
-    color: #997733;
+    color: #000000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -58,19 +59,20 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: "Open Sans 600";
+    text-transform: ; 
+    font-family: 'Droid Sans' sans-serif;
     background-color: #000000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -79,8 +81,8 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 20px;
-    color: #997733;
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -119,7 +121,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #997733;
+    color: #ffffff;
 }
 
 @media(min-width:768px) {
@@ -135,7 +137,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 0px solid rgba(255,255,255,.3);
         background: #000000;
     }
 }
@@ -161,7 +163,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'FontAwesome', sans-serif;
     font-size: 35px;
     color: #cbcebd;
 }
@@ -179,11 +181,11 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 60px;
+        font-size: 75px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 40px;
+        font-size: 50px;
     }
 /*}
 
@@ -262,15 +264,19 @@ a:focus {
 }
 
 .content-section {
+  rep background: url(../img/dark-blue-industrial-patterns-2.jpg)eat bottom center scroll;
     padding-top: 100px;
 }
 
 .portfolio-section {
+   
+    display: table;
     width: 100%;
-    padding: 50px 0;
-    color: #ffffff;
-    background: url(../img/grunge.jpg) no-repeat center center scroll;
-    background-color: #b0b0b0;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    color: #000000;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -312,7 +318,7 @@ a:focus {
     border: 1px solid #b0b0b0;
     color: #997733;
     outline: 0;
-    background-color: #997733 transparent;
+    background-color: #000000 transparent;
 }
 
 .btn-default:hover,
