@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    text-transform;
     font-family: 'Droid Sans' sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -55,17 +55,17 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #997733;
+    color: #C5A900;
 }
 
 .light {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: ; 
+    text-transform: bold; 
     font-family: 'Droid Sans' sans-serif;
     background-color: #000000;
 }
@@ -91,7 +91,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #997733;
+    color: #C5A900;
 }
 
 .navbar-custom .nav li a {
@@ -149,7 +149,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #000000;
-    background: url(../img/metal.jpg) no-repeat bottom center scroll;
+    background: url(../img/dark-blue-industrial-patterns-2.jpg) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -163,15 +163,16 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-font-family: 'Racing Sans One', cursive;    
-font-size: 100px;
-    color: #cbcebd;
+font-family: 'Racing Sans One';    
+font-size: 200px;
+letter-spacing: 5px;
+color: #BEC6C4;
 }
 
 .intro .intro-body .intro-text {
-    font-family: 'Open Sans 600', sans-serif;
-    color: #cbcebd;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #C5A900;
+    font-size: 60px;
 }
 
 @media(min-width:768px) {
@@ -181,7 +182,7 @@ font-size: 100px;
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 75px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
@@ -264,7 +265,7 @@ font-size: 100px;
 }
 
 .content-section {
-  background: url(../img/dark-blue-industrial-patterns-2.jpg)eat bottom center scroll;
+  background: url(../img/dark-blue-industrial-patterns-2.jpg) bottom center scroll;
     padding-top: 100px;
 }
 
@@ -316,7 +317,7 @@ font-size: 100px;
 
 .btn-default {
     border: 1px solid #b0b0b0;
-    color: #997733;
+    color: #C5A900;
     outline: 0;
     background-color: #000000 transparent;
 }
@@ -325,7 +326,7 @@ font-size: 100px;
 .btn-default:focus {
     border: 1px solid #000000;
     outline: 0;
-    color: #997733;
+    color: #C5A900;
     background-color: #b0b0b0 transparent;
 }
 
@@ -361,13 +362,13 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #997733;
+    background: #C5A900;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #997733;
+    background: #C5A900;
     background: rgba(255,255,255,.2);
 }
 
