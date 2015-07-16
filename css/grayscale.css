@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     background-color: #152d39;
-    background: url(../img/dark-blue-industrial-patterns-2.jpg)
+    background: url(../img/dark-blue-industrial-patterns-2.jpg) no-repeat bottom center scroll;
 }
 
 html {
@@ -265,7 +265,7 @@ color: #BEC6C4;
 }
 
 .content-section {
-  background: url(../img/dark-blue-industrial-patterns-2.jpg) bottom center scroll;
+  background: url(../img/dark-blue-industrial-patterns-2.jpg) no-repeat bottom center scroll;
     padding-top: 100px;
 }
 
