@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Racing Sans One' sans-serif;
+    font-family:"Product Sans", Arial, sans-serif;
     color: #997733;
     letter-spacing: 1px;
     font-weight: 700;
@@ -55,7 +55,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: "FontAwesome";
     font-size: 2em;
 }
 
@@ -98,9 +98,7 @@ header img {
 }
 
 header .intro-text .name {
-    display: block;
-    text-transform: uppercase; ; 
-    font-family: "Racing Sans One", sans-serif;
+    font-family: 'Product Sans', Arial, sans-serif;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 700;
@@ -152,7 +150,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: ;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
