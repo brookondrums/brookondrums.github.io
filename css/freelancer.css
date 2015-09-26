@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Racing Sans One' sans-serif;
+    font-family: 'Product Sans', Arial, sans-serif;'
     color: #997733;
     letter-spacing: 1px;
     font-weight: 700;
@@ -99,8 +99,8 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase; ; 
-    font-family: "Racing Sans One", sans-serif;
+    text-transform: ; 
+    font-family: 'Product Sans', Arial, sans-serif;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 700;
